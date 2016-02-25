@@ -1,9 +1,3 @@
-<html>
-<head><title></title></head>
-<body onload="javascript: paintBoard();">
-<canvas width="500" height="500" id="board" onclick="javascript: clickHandler(event);"></canvas>
-<script>
-/*
 var xBoard = 0;
 var oBoard = 0;
 var begin = true;
@@ -260,7 +254,3 @@ function play() {
    markBit(bestBit, 'O');
    
 }
-*/
-</script>
-</body>
-</html>

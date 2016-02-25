@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<head>
+	<title>Miseree Tic Tac Toe</title>
+</head>
+
+<body>
+	<script src="js/tictactoe.js"></script>
+	
+	<div style="position: relative">
+		<canvas width="500" height="500" id="board1"></canvas>
+		<canvas width="500" height="500" id="board2"></canvas>
+		<canvas width="500" height="500" id="board3"></canvas>
+		
+		<script>
+			paintBoard("board1","red")
+			paintBoard("board2","green")
+			paintBoard("board3","blue")
+		</script>
+	</div>
+	
+	
+	
+	
+	
+	<!--
+	<canvas width="1920" height="1024" id="boardContainer" onclick="javascript: clickHandler(event);">
+		
+		<canvas width="500" height="500" id="board1" onclick="javascript: clickHandler(event);">
+			<script>
+				//onload="javascript: paintBoard();"
+				var ctx=document.getElementById("board1").getContext("2d");
+				ctx.strokeStyle = "red";
+				ctx.rect(0,0,500,500);
+				ctx.stroke();
+			</script>
+		</canvas>
+		
+	</canvas>
+	<!-- <script src="js/fullfile.js"></script> -->
+</body>
